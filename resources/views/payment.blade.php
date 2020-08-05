@@ -65,6 +65,5 @@
     <div class="payment_fail">
 
     </div>
-    <script src="{{asset('/js/jquery.arcticmodal-0.3.min.js')}}"></script>
     <script src="{{asset('/js/payment.js')}}"></script>
 @endsection

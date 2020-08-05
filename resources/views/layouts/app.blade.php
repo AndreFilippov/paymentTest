@@ -19,7 +19,6 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/jquery.arcticmodal-0.3.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">

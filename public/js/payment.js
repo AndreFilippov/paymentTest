@@ -83,17 +83,15 @@ jQuery(document).ready(function (){
             method: 'POST',
             data: data,
             success:function (data){
-                if(data == 'error'){
-                    jQuery('.payment_success').arcticmodal({
-                        beforeOpen: function(){
-                            jQuery('.payment_success').show();
-                            jQuery('.payment_success_video').get(0).play();
-                        },
-                        afterClose: function () {
-                            jQuery('.payment_success').hide();
-                        }
-                    });
+                if(data == 'success'){
+                    error_input.text('Оплата прошла успешно.').show();
+                } else {
+                    error_input.text('При оплате возникла ошибка').show();
                 }
+                jQuery('.sendPay').prop('disabled', false);
+            },
+            error:function (data){
+                error_input.text('При оплате возникла ошибка').show();
                 jQuery('.sendPay').prop('disabled', false);
             }
         });

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4a895a9ab1d615d2e9249d81e62d3ded",
+    "content-hash": "3ad0654dd3fe50f9e42d24382088a713",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -478,16 +478,16 @@
         },
         {
             "name": "filippov/payment",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/AndreFilippov/payment-package.git",
-                "reference": "a87ab58367aecffe938f783ce76fa526054862e4"
+                "reference": "26b62e68f05896886ca4046df659b13a9a5628f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AndreFilippov/payment-package/zipball/a87ab58367aecffe938f783ce76fa526054862e4",
-                "reference": "a87ab58367aecffe938f783ce76fa526054862e4",
+                "url": "https://api.github.com/repos/AndreFilippov/payment-package/zipball/26b62e68f05896886ca4046df659b13a9a5628f2",
+                "reference": "26b62e68f05896886ca4046df659b13a9a5628f2",
                 "shasum": ""
             },
             "type": "library",
@@ -514,7 +514,7 @@
                 }
             ],
             "description": "Payment Module for DonatePay",
-            "time": "2020-08-05T20:20:02+00:00"
+            "time": "2020-08-05T20:49:29+00:00"
         },
         {
             "name": "fruitcake/laravel-cors",
@@ -6602,9 +6602,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "filippov/payment": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
